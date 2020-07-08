@@ -1,1 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
+
+// la path di fontawesome è uguale al percorso che ho creato io
+$fa-font-path: 'fonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
+@import 'partials/_header.scss';
+@import 'partials/_main-home.scss';
+@import 'partials/_main-comune.scss';
+@import 'partials/_footer.scss';
+@import 'partials/_privacy.scss';
+@import 'partials/_common.scss';

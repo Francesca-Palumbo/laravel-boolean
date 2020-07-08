@@ -1,0 +1,44 @@
+#main-home{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+    
+    #testo{
+        width: 50%;
+        color: #1b3c59;
+        float: left;
+
+        #diventa-sviluppatore{
+            text-transform: uppercase;
+            font-size: 58.5px;
+            line-height: 1.1;
+            font-weight: 300
+        }
+
+        #trasformiamo{
+            font-weight: bolder;
+            font-size: 22px;
+            line-height: 1.2;
+        }
+
+        #lista-corso{
+            padding-left: 18px;
+
+            li{
+                font-size: 19px;
+                font-weight: 300;
+                font-family: Rubik,sans-serif;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    #img-gif{
+        float: left;
+
+        img{
+            height: 287px;
+        }
+    }
+}

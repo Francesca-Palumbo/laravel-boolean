@@ -1,7 +1,52 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Benvenuti</h1>
+    <main id="main-home">
+        <div id="testo">
+            <p id="diventa-sviluppatore">
+                diventa sviluppatore
+            </p>
+            <p id="trasformiamo">
+                Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.
+                <ul id="lista-corso" >
+                    <li>
+                        6 mesi di corso intensivo online in diretta
+                    </li>
+                    <li>
+                        Nessuna competenza di programmazione richiesta
+                    </li>
+                    <li>
+                        Siamo certi del tuo successo, altrimenti ti rimborsiamo
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div id="img-gif">
+            <img src="{{ asset('images/pc-black-gif.gif') }}" alt="">
+        </div>
+    </main>
+    <div id="sezione-blu">
+        <div id="contenitore-blu">
+            <div class="contenitore-blu-singolo">
+                <p class="titoli-numeri">98%</p>
+                <p class="paragrafi-numeri">
+                    La percentuale dei nostri studenti che ora lavora come web developer, oltre la metà a tempo indeterminato.
+                </p>
+            </div>
+            <div class="contenitore-blu-singolo">
+                <p class="titoli-numeri">€ 23.000</p>
+                <p class="paragrafi-numeri">
+                    Lo stipendio medio lordo di partenza degli studenti assunti dalle nostre aziende partner.
+                </p>
+            </div>
+            <div class="contenitore-blu-singolo">
+                <p class="titoli-numeri">#1</p>
+                <p class="paragrafi-numeri">
+                    Siamo il primo istituto online in Italia per indice di gradimento e risultati conseguiti.
+                </p>
+            </div>
+        </div>
+    </div>
 @endsection
 
 @section('page-title', 'Homepage')

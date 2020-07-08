@@ -1,0 +1,30 @@
+header{
+    nav{
+        background-color: white;
+
+        #logo-boolean{
+            max-width: 200px;
+        }
+
+        #lista-menu{
+            width: 83%;
+            height: 42px;
+            display: flex;
+            justify-content: space-evenly;
+            text-transform: uppercase;
+            font-weight: 600;
+
+            li{
+                height: 40px;
+            }
+
+            li:hover{
+                border-bottom: 2px solid #61ce4e;
+            }
+
+            li.active{
+                border-bottom: 2px solid #61ce4e;
+            }
+        }
+    }
+}

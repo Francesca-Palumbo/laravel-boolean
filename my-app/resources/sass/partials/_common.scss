@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik,sans-serif;
+}
+
+#sezione-blu{
+    height: 270px;
+    width: 100%;
+    background-color: #1b3c59;
+
+    #contenitore-blu{
+        width: 80%;
+        height: 270px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+        .contenitore-blu-singolo{
+            width: 500px;
+            padding: 33px;
+            
+            .titoli-numeri{
+                text-align: center;
+                color: #fff;
+                font-size: 49.5px;
+                font-weight: 400;
+            }
+
+            .paragrafi-numeri{
+                color: #fff;
+                font-size: 19px;
+                font-weight: 300;
+                line-height: 1.5;
+                text-align: center;
+            }
+        }
+    }
+}

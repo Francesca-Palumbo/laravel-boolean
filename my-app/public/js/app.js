@@ -37233,7 +37233,9 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-
+ // $(document).on('click' ,'#lista-menu li', function(){
+//     $(this).addClass('active').siblings().removeClass('active')
+// });
 
 /***/ }),
 
